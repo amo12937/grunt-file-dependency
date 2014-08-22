@@ -13,6 +13,13 @@
   "author": "amo.12937",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "coffee-script": "^1.7.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-karma": "^0.8.3",
+    "karma": "^0.12.22",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^0.4.0"
   }
 }
