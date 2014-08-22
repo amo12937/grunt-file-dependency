@@ -11,5 +11,8 @@
     "url": "git@github.com:amo12937/grunt-file-dependency.git"
   },
   "author": "amo.12937",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
