@@ -24,7 +24,7 @@ module.exports = (grunt) ->
       has[key] = true
     f key, deps for key, deps of shim
 
-    opts.usePrioriy priority
+    opts.usePriority priority
 
   grunt.registerMultiTask "fileDependency", "make file dependency for requirejs", ->
     opts = @options
