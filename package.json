@@ -1,6 +1,6 @@
 {
   "name": "grunt-file-dependency",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "make file dependency for requirejs, and file priority for concat/minify",
   "main": "index.js",
   "scripts": {
