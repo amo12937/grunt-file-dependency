@@ -18,7 +18,7 @@ module.exports = (grunt) ->
     f = (key, d = deps[key] or []) ->
       return if has[key]
       f k for k in d
-      priority.push path.resolve baseUrl, alias[key] or key
+      priority.push require.resolve path.resolve baseUrl, alias[key] or key
       has[key] = true
     f key, d for key, d of deps
 
