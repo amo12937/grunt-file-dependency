@@ -3,8 +3,6 @@
 path = require "path"
 module.exports = (grunt) ->
   grunt.registerMultiTask "makePriority", "make priority", ->
-    console.log @data
-
     opts = @options
       baseUrl: "./"
       alias: {}
